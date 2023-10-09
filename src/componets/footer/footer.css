@@ -1,0 +1,152 @@
+.footer {
+	width: 100%;
+	position: relative;
+	height: 360px;
+	background-color: #303141;
+	margin: 0 auto;
+}
+.footer .col {
+	width: 190px;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 17px;
+	padding: 20px 0px 5px 0px;
+	color: #6f6d6d;
+	font-weight: bold;
+}
+.footer .col ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.footer .col ul li {
+	color: #6f6d6d;
+	font-size: 14px;
+	font-family: inherit;
+	padding: 5px 0px 5px 0px;
+	cursor: pointer;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+}
+.social ul li {
+	display: inline-block;
+	padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+	color: #ffffff;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+}
+.clearfix {
+	clear: both;
+}
+
+.trust_pilot_logo {
+	height: 100px;
+	position: relative;
+	top: -20px;
+}
+
+.footer_logo {
+	height: 70px;
+	width: 150px;
+	position: relative;
+	top: -17px;
+}
+
+.email_link {
+	color: white !important;
+	font-size: 10px !important;
+	font-weight: normal !important;
+	position: relative;
+	top: -30px;
+	left: 10px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+.copyright span {
+	color: #999999;
+}
+
+.payment_options_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2b2c3b;
+	height: 70px;
+}
+
+.payment_options_limiter {
+	width: 910px;
+}
+
+.payment_options {
+	height: 40px;
+}
+
+.payment_text {
+	color: #999999; 
+	position: relative;
+	top: -16px;
+}
+@media only screen and (min-width: 1280px) {
+	.contain {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 1080px) {
+	.contain .social {
+		width: 1000px;
+		display: block;
+	}
+	.social h1 {
+		margin: 0px;
+	}
+	.logo_footer_container {
+		display: flex;
+		justify-content: center;
+	}
+	.trustpilot_container {
+		display: flex;
+		justify-content: center;
+	}
+	.footer .col {
+		width: 100%;
+		text-align: center;
+	}
+	.footer .col h1 {
+		font-size: 14px;
+	}
+	.footer .col ul li {
+		font-size: 13px;
+	}
+	.footer {
+		height: auto;
+	}
+	.copyright {
+		text-align: center;
+	}
+
+	.payment_options_limiter {
+		text-align: center;
+	}
+}

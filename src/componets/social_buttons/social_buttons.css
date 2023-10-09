@@ -1,0 +1,53 @@
+button {
+    outline:none;
+    background: none;
+    border:0;
+  }
+  .round-button {
+    width:50px;
+  }
+  .round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+      border-radius: 50%;
+      background: #4679BD; 
+      box-shadow: 0 0 3px gray;
+  }
+  .round-button-circle:hover {
+    background:#30588e;
+  }
+  .round-button a, .round-button span {
+      display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+      padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+      
+    text-align:center;
+    color:#e2eaf3;
+      font-family:Verdana;
+      font-size:10px;
+      font-weight:bold;
+      text-decoration:none;
+  }
+
+  .social_buttons_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social_buttons_limiter{
+    width: 910px;
+  }
+
+  @media only screen and (max-width: 1139px) {
+    .social_buttons_limiter{
+        text-align: center;
+      }
+  }
+
+  

@@ -1,0 +1,36 @@
+.main_body {
+	background-image: url(../../assets/rs3.jpg);
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.middle_section_container {
+	position: relative;
+	top: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.middle_section_limiter {
+	width: 910px;
+}
+.middle_section_limiter h1 {
+	color: #fff;
+}
+
+.game_selector {
+    width: 230px;
+    filter: opacity(0.2);
+    background-color: aliceblue;
+}
+
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
